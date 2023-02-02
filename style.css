@@ -86,6 +86,7 @@ nav a{
 main {
     display: flex;
     color: rgb(0, 0, 0);
+    max-height: -50px;
 }
 
 
