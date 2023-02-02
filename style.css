@@ -1,3 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
-    background: blue;
+    background: rgb(182, 175, 166);
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer, 
+.push {
+    height:50px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 4em;
+    flex: 5;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+aside {
+    border: 2px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact ul{
+    list-style: none;
+}
+
+.profile {
+    padding-top: 10px;
+    width:400px;
+    display: flex;
+}
+
+nav {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+    padding-bottom: 40px;
+}
+  
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+  
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+  
+nav a{
+    display: inline-block;
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  
+}
+
+main {
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+
+
+#bio {
+    font-size: 1.5em;
+    text-align: center;
+    flex: 4;
+    height: 300px;
+    width: 500px;
+    padding-left: 15px;
+    padding-right: 5px;
 }
