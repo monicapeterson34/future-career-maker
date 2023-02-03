@@ -100,3 +100,8 @@ main {
     padding-left: 15px;
     padding-right: 5px;
 }
+/*for the socials page */
+
+#linked-in {
+    list-style-type: none;
+}
