@@ -146,3 +146,11 @@ main {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+
+/*for the resume page*/
+
+main #resume {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
