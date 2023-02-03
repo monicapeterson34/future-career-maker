@@ -95,6 +95,7 @@ main {
     font-size: 1.5em;
     text-align: center;
     flex: 4;
+
     height: 300px;
     width: 500px;
     padding-left: 15px;
@@ -102,6 +103,10 @@ main {
 }
 /*for the socials page */
 
-#linked-in {
+#linked-in ul {
     list-style-type: none;
+}
+
+.row {
+    display: inline-block
 }
