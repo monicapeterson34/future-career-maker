@@ -103,10 +103,29 @@ main {
 }
 /*for the socials page */
 
-#linked-in ul {
-    list-style-type: none;
+.social {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+    padding-bottom: 40px;
+    padding-right: 45px;
 }
 
-.row {
-    display: inline-block
+.social ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+
+.linkedin-row li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+.github-row li {
+    display: inline;
+    text-align: center;
+    flex: 1;
 }
