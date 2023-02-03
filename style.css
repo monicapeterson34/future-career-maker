@@ -14,8 +14,7 @@ body {
     margin-bottom: -50px;
 }
 
-.footer, 
-.push {
+.push, .footer {
     height:50px;
     text-align: center;
 }
