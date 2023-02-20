@@ -83,7 +83,7 @@ nav a{
   
 }
 
-main {
+.index-main {
     display: flex;
     color: rgb(0, 0, 0);
     max-height: -50px;
@@ -150,7 +150,28 @@ main {
 /*for the resume page*/
 
 main #resume {
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.aside-resume {
+    padding-left: 20px;
+    padding-right: 80px;
+    text-align: left;
+    float: left;
+    max-width: 20%;
+    min-height: 1250px;
+    border: none;
+}
+
+.aside-resume>h4 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1em;
 }
